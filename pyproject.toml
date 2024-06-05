@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "stash-image-tagger"
+version = "0.1.0"
+description = ""
+authors = ["Quail4749 <166663352+Quail4749@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+onnxruntime = "^1.18.0"
+huggingface-hub = "^0.23.2"
+fastapi = "^0.111.0"
+stashapp-tools = "^0.2.43"
+pyvips = "^2.2.3"
+numpy = "^1.26.4"
+aiohttp = "^3.9.5"
+urllib3 = "^2.2.1"
+loguru = "^0.7.2"
+pydantic = "^2.7.3"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
